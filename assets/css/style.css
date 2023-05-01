@@ -1,0 +1,39 @@
+body {
+    background-color: lightgray;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.viewHighscoresB {
+  background-color: plum;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.codingTitle {
+    margin-left: 600px;
+}
+
+.underTitle {
+    margin-left: 300px;
+    margin-right: 200px;
+    font-size: 20px;
+}
+
+.startQuizB {
+    background-color: plum;
+    font-size: 25px;
+    margin-left: 700px;
+}
+
+footer {
+    margin-top: 400px;
+    margin-left: 650px;
+    font-size: large;
+
+}
