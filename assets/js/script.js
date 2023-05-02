@@ -21,9 +21,5 @@ var quiz = questions;
 
 populate();
 
-//function endgame() {
-   // clearInterval(timer);
-    //quiz
-//}
-
+var startGame = document.querySelector("startQuizB")
 

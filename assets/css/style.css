@@ -15,11 +15,11 @@ main {
     margin-top: 100px;
 }
 
-.codingTitle {
+.codingQuizTitle{
     margin-left: 550px;
 }
 
-.underTitle {
+#codingQuiz {
     margin-left: 300px;
     margin-right: 300px;
     font-size: 20px;
@@ -31,9 +31,39 @@ main {
     margin-left: 625px;
 }
 
+.viewHighscores {
+    margin-left: 600px;
+    margin-right: 300px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+#enterInitials{
+    margin-left: 600px;
+    margin-right: 300px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+
+.playAgainB {
+    margin-left: 600px;
+    margin-right: 300px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.saveScoresB {
+    margin-left: 600px;
+    margin-right: 300px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
 footer {
     margin-top: 400px;
     margin-left: 600px;
     font-size: large;
 
 }
+
