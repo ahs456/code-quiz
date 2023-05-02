@@ -11,37 +11,35 @@
 <body>
     <header>
         <section> 
-            <button class="viewHighscoresB">View Highscores</button>
+            <button class="viewHighscoresB" id="button">View Highscores</button>
         </section>
+        <div class="timer"></div>
     </header>
-
+    
     <main>
-        <section>
-            <h1 class="codingTitle">Coding Quiz Challenge</h1>
-            <p class="underTitle">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your scoretime by ten seconds!</p>
-            <button class="startQuizB">Start Quiz</button>
+        <section class="codingQuiz">
+            <h1>Coding Quiz Challenge</h1>
+            <p id="codingQuiz">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your scoretime by ten seconds!</p>
+            <button class="startQuizB" id="button">Start Quiz</button>
         </section>
-        <section>
-            <h2 class="timeCountdown"></h2>
+        <section class="mainQuiz">
+            <div id="questions"></div>
+            <div id="answers"></div>
+            <div id="popup"></div>
         </section>
-        <!--
-        <section id="allQuestionsAnswered">
-            <h3><strong>All done!</strong></h3>
-            <p>Your final score is:</p>
-            <p>Enter Initials:</p>
-            <button>Submit</button>
+        <section id="endPage">
+            <div class="viewHighscoresB" id="button">View Highscores</div>
+            <input type="text" id="enterInitals" placeholder="Enter your initals HERE" />
+            <button class="initalSubmitB" id="button">Submit</button>
+            <div class="playAgainB" id="button">Play Again</div>
+            <div class="saveScoresB" id="button">Save my Highscore</div>
         </section>
-        <section class="finalHighscorePage">
-            <h4>Highscores</h4>
-            <button>Go Back</button>
-            <button>Clear Highscores</button>
-        </section>-->
     </main>
 
     <footer>Made by Anika Hussain</footer>
 
-    <script src="./assets/js/questions.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="/assets/js/questions.js"></script>
+    <script src="/assets/js/script.js"></script>
 </body>
 
 </html>

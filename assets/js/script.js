@@ -1,4 +1,4 @@
-var timeEl = document.querySelector(".timeCountdown")
+var timeEl = document.querySelector(".timer")
   var countdown = 60
 
   function startGame() {
