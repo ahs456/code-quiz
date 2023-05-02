@@ -16,24 +16,24 @@ main {
 }
 
 .codingTitle {
-    margin-left: 600px;
+    margin-left: 550px;
 }
 
 .underTitle {
     margin-left: 300px;
-    margin-right: 200px;
+    margin-right: 300px;
     font-size: 20px;
 }
 
 .startQuizB {
     background-color: plum;
     font-size: 25px;
-    margin-left: 700px;
+    margin-left: 650px;
 }
 
 footer {
     margin-top: 400px;
-    margin-left: 650px;
+    margin-left: 600px;
     font-size: large;
 
 }
