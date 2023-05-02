@@ -24,6 +24,7 @@ WHEN the game is over
 THEN I can save my initials and my score
 
 # Deployed link
+https://ahs456.github.io/week-4-quiz-project/
 
 # Licence
 N/A
